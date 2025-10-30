@@ -63,3 +63,47 @@ print ("Hola " , "!" + full_name.title() + "!")
 message = "Hola " , "!" + full_name.title() + "!"
 
 print (message)
+
+
+
+#WHITESPACES
+"""
+    Whitespace se refiere a cualquier caracter 
+    que no se imprime, es decir, un espacio en blanco
+    un tabulador o un salto de linea. Los whitespaces
+    se utiliza comunmente para organizar las salidas
+    en pantalla de tal manera que sea mas amigable de 
+    leer o ver para los usuarios
+"""
+
+print("python")
+print("\tpython") # tabulador antes de python
+print("\t\tpython")# tabulador antes de python
+print("languages: \n\tpython\n\tJava\n\tJavaScripts")# salto de linea
+
+
+
+# Eliminacion de WHIESPACE
+print("\n\n ELIMINACION DE ESPACIOS EN BLANCO")
+favorite_language = " python "
+
+print(favorite_language)
+
+print(favorite_language.rstrip())
+
+print(favorite_language.lstrip())
+
+print(favorite_language.strip())
+
+# Syntax Error con strings
+
+print("\n\nSyntax Error con Strings")
+
+message = 'Una fortaleza de python es su comunidad activa'
+
+print(message)
+# un syntax error seria message = 'una fortaleza de "python"es su comunidad activa'
+
+message = 'una fortaleza de "python"es su comunidad activa'
+
+print (message)
