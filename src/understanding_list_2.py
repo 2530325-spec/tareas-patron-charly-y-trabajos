@@ -36,4 +36,15 @@ print ( jojos_3)
 jojos_4 = jojos_bizarre_adventures.copy()
 print (jojos_4)
 
+print("\n")
+cars = ["bwm", "toyota", "volkswagen", "porche"]
 
+print (cars)
+
+cars[0] = "bmw"
+
+print(cars)
+
+cars[3] = "porsche"
+
+print(cars)
