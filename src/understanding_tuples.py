@@ -23,6 +23,7 @@ print(dimensions[1])
 # dimensions[0]=300 #no se puede #type error
 
 for dimension in dimensions:
+
     print(dimension)
 
 
