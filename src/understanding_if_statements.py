@@ -51,3 +51,18 @@ maldicion = ["mahito"]
 print (maldicion not in hechiceros) #true
 print ('nobara' not in hechiceros) #false
 
+
+ 
+
+"""
+type() - nos dice el tipo de dato
+list() - crea una lista
+input() - obtiene entrada del usuario
+str() - convierte a cadena de texto
+int() - convierte a entero
+print() - muestra informacion en pantalla
+tuple() - crea una tupla
+len() - obtiene la longitud de un objeto
+sorted() - ordena los elementos de una lista
+
+"""
