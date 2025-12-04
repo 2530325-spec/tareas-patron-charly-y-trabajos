@@ -1,6 +1,8 @@
-#2530090_MartinezReyesJoseAlejandro
-#  Grupo: 103 ó 1-1
-    
+# PORTADA
+# ================================================================
+# Name: Escobar Carrizales Victor
+# Matriculation: 2530325
+# Group: 103 
 #   In this file, i have to create diferents
 #   code for the correct use of strings 
 #   using functions and methods.
@@ -37,7 +39,7 @@ write the name with title and the initials
 
 """
 
-"""
+
 def get_non_empty(prompt):
     while True:
         value = input(prompt).strip()
@@ -66,13 +68,13 @@ Name = full_name(
 
 print("Your full name is: " + Name)
 print("Your initials: " + Initials)
-"""
+
 """
 in the next progam we have to check if the 
 string that the user user bring to us have a @ and a . after this
 if the string count with this two we have to show the full email and 
 the domain and print this too
-"""
+
 
 """"""
 # in the next code i have to check a string 
@@ -81,8 +83,8 @@ the domain and print this too
 _________________________________________________________________________________________________________________
 _________________________________________________________________________________________________________________
 
-"""
-"""
+
+
 def check_email():
     email = input("Enter your email: ")
 
@@ -112,9 +114,8 @@ def check_email():
     print("Domain: ", domain)
     print("Number of '@' symbols: ", at_count)
 check_email()
-"""
-"""
 
+"""
 the check in this has been done with the use of "for"
 because for is a check of any of the conditions  i put it will show or do the thing i do and 
 if the string pass go to a return to continue checking the next.
@@ -134,7 +135,7 @@ with that check
 show with a print if the text is palindrome or not 
 and optional print the normalize text 
 """
-"""
+
 def check_palindrome(phrase):
     if phrase.strip() == "":
                print("Error: The phrase cannot be empty.")
@@ -154,7 +155,7 @@ def check_palindrome(phrase):
 
 text = input("Enter a phrase: ")
 check_palindrome(text)
-"""
+
 """
 
 ______________________________________________________________________________________________________
@@ -166,7 +167,7 @@ ________________________________________________________________________________
 #Sentence word stats (lengths and first/last word)
 sentence = input("Enter a sentence: ")
 
-"""
+
 if sentence.strip() == "":
     print("it cant be empty what's up")
 else:
@@ -187,7 +188,7 @@ print(f"First word: {first_word}")
 print(f"Last word: {last_word}")
 print(f"Shortest word: {shortest_word}")
 print(f"Longest word: {longest_word}")
-"""
+
 # in this code i have something that can i name as a error and 
 # that is that is any two words that have the same quantity of letters 
 # the code only will show one word 
@@ -206,7 +207,7 @@ ________________________________________________________________________________
 """
 
 #Sentence word stats (lengths and first/last word)
-"""
+
 sentence = input("Enter a sentence: ")
 
 
@@ -230,7 +231,7 @@ print(f"First word: {first_word}")
 print(f"Last word: {last_word}")
 print(f"Shortest word: {shortest_word}")
 print(f"Longest word: {longest_word}")
-"""
+
 # in this code i have something that can i name as a error and 
 # that is that is any two words that have the same quantity of letters 
 # the code only will show one word 
@@ -242,7 +243,7 @@ ________________________________________________________________________________
 
 """
 ### password strenght 
-"""
+
 password_input = input("Enter your password: ")
 
 if password_input.strip() == "":
@@ -277,7 +278,7 @@ else:
         strength = "weak"
 
     print(f"Password strength: {strength}")
-"""
+
     # in this code we can see the checks that if the password have atleast 6 digits on the string
     #the pasword is weak and if the password has the same number of letters but if the password
     # have a upper o lower and a digit it will be a medium strenght pass word 
@@ -291,7 +292,7 @@ ________________________________________________________________________________
 _____________________________________________________________________________________________________________________
 
 """
-"""
+
 product = input("Enter product name: ")
 cost = input("Enter product price: ")
 
@@ -317,7 +318,7 @@ else:
 
     except ValueError:
         print("Error: Price must be a valid number.")
-"""
+
 """
 in this code we have to make thaht the product name should not be empty
 and the price should be a positive number
@@ -347,7 +348,7 @@ and it its nota seen by the user it just help the code to work properly
 ####
 ###
 # references
-""""
+"""
 
 https://youtu.be/CCUNuqqn7PQ?si=HltURE4xKIDyQjm9
 https://youtu.be/9k91jETchkI?si=3jr1oLLRh44mghYe

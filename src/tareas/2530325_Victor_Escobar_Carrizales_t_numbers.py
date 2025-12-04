@@ -60,7 +60,7 @@
 # 2) Border: temp_c = 30   → High temperature: true
 # 3) Error: temp_c = -300  → Kelvin < 0 → invalid
 # ================================================================
-"""
+
 temp_c_text = input("Enter temperature in Celsius: ").strip()
 
 try:
@@ -80,7 +80,7 @@ try:
 except:
     print("Error: invalid input")
 
-"""
+
 
 # ================================================================
 # 7.2 PROBLEM 2: Work hours and overtime payment
@@ -107,7 +107,7 @@ except:
 # 2) Border: hours=40 → no overtime
 # 3) Error: hours=-1 or rate=0 → invalid
 # ================================================================
-"""
+
 hours_text = input("Enter hours worked: ").strip()
 rate_text = input("Enter hourly rate: ").strip()
 
@@ -135,7 +135,7 @@ try:
 except:
     print("Error: invalid input")
 
-"""
+
 
 # ================================================================
 # 7.3 PROBLEM 3: Discount eligibility with booleans
@@ -164,7 +164,7 @@ except:
 # 2) Border: total=1000 → true
 # 3) Error: invalid text → invalid input
 # ================================================================
-"""
+
 purchase_text = input("Enter purchase total: ").strip()
 student_text = input("Is student? (YES/NO): ").strip().upper()
 senior_text = input("Is senior? (YES/NO): ").strip().upper()
@@ -195,7 +195,6 @@ try:
 except:
     print("Error: invalid input")
 
-"""
 
 # ================================================================
 # 7.4 PROBLEM 4: Basic statistics of three integers
@@ -222,7 +221,7 @@ except:
 # 2) Border: 2,4,6 → all_even: true
 # 3) Error: text input
 # ================================================================
-"""
+
 try:
     n1 = int(input("Enter integer 1: "))
     n2 = int(input("Enter integer 2: "))
@@ -243,7 +242,7 @@ try:
 except:
     print("Error: invalid input")
 
-"""
+
 
 # ================================================================
 # 7.5 PROBLEM 5: Loan eligibility
@@ -270,8 +269,8 @@ except:
 # 1) Normal: 10000, 2000, 700 → eligible
 # 2) Border: 8000, 3200, 650 → eligible
 # 3) Error: income = 0 → invalid input
-# ================================================================
-"""
+# 
+
 income_text = input("Enter monthly income: ").strip()
 debt_text = input("Enter monthly debt: ").strip()
 score_text = input("Enter credit score: ").strip()
@@ -297,7 +296,7 @@ try:
 except:
     print("Error: invalid input")
 
-"""
+
 
 # ================================================================
 # 7.6 PROBLEM 6: BMI and category flag
@@ -322,7 +321,7 @@ except:
 # 2) Border: 90, 1.70 → overweight
 # 3) Error: height = 0 → invalid
 # ================================================================
-"""
+
 weight_text = input("Enter weight (kg): ").strip()
 height_text = input("Enter height (m): ").strip()
 
@@ -348,7 +347,7 @@ try:
 except:
     print("Error: invalid input")
 
-"""
+
 
 # ================================================================
 # CONCLUSIONS
