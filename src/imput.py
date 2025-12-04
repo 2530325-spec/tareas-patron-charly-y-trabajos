@@ -27,5 +27,7 @@ elif age>100 :
     print("tienes mas de un siglo vivo :v")
 elif age < 0 :
     print("estas en los huevos de tu jefe o que")
+else:
+    print("pon un fakin numero")
 
  

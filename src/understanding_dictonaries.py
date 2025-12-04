@@ -44,3 +44,44 @@ print("\n")
 for key , value in favorite_languages.items():
     print(f"{key.title()}'s favorite \
 languafe is {value.title()}. ")
+    
+print("\n")
+
+covenant_grunts = {
+    "color":"orange",
+    "height":"small",
+    "weapon":"plasma gun",
+    "hit_points":"1",
+    "healt":"3",
+    "point":"1"
+    }
+
+covenant_elite = {
+    "color":"blue",
+    "height":"big",
+    "weapon":"plasma gun",
+    "hit_points":"3",
+    "healt":"6",
+    "point":"3"
+    }
+
+covenant_jackal = {
+    "color":"green",
+    "height":"medium",
+    "weapon":"plasma gun",
+    "hit_points":"7",
+    "healt":"3",
+    "point":"2"
+    }
+
+for key , value in covenant_grunts.items():
+    print(f"{key.title()} : {value.title()}. ")
+    print("\n")
+
+
+
+
+
+
+
+
