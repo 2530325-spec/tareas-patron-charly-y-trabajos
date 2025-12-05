@@ -1,11 +1,7 @@
-# ----------------------------------------------------------------------
-# 2.3 Estructura interna del archivo (todo como comentarios)
-# ----------------------------------------------------------------------
-
 # Portada
-# Nombre: Carlos Tovar
-# Matrícula: 1030034
-# Grupo: [Tu Grupo/Clase]
+# Nombre: Victor Escobar Carrizales
+# Matrícula: 2530325
+# Grupo: 103
 
 # ----------------------------------------------------------------------
 # 4. RESUMEN EJECUTIVO (COMENTARIOS EN EL .py)
